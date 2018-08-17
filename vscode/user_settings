@@ -1,0 +1,24 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": -1,
+    "editor.tabSize": 2,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.enablePreview": false,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "explorer.confirmDelete": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.exclude": {
+        "**/*.pyc": true
+    },
+    "files.autoSave": "on",
+    "files.autoSaveDelay": 1000,
+    "editor.wordWrap": "on"
+}
