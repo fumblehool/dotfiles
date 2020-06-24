@@ -1,0 +1,19 @@
+# Navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Shortcuts
+alias w="cd ~/Workspace"
+
+# List only directories
+alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
+
+alias l="ls"
+alias ll="ls -al"
+
+# Start VSCode
+
+# add color to tmux
+alias tmux="TERM=screen-256color-bce tmux"
